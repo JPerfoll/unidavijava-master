@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UnidaviJava</string>
+    <string name="default_text">Olá Mundo</string>
+    <string name="msg_default">Aqui tem coragem</string>
+    <string name="serjao_desc">Nós mata mesmo. \"atirou em uma onça só, mas valeu por duas ou mais.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="button_enter">Entrar</string>
+    <string name="button_forgot">Esqueci minha senha</string>
+    <string name="error_connection">Erro ao realizar conexão</string>
+    <string name="error_request">Erro ao realizar requisição</string>
+    <string name="label_error_invalid_response">Resposta inválida</string>
+    <string name="message_wait">Aguarde...</string>
+</resources>

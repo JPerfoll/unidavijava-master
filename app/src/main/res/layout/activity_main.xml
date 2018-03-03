@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_default"
+        android:textSize="18sp"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_below="@id/img_profile"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/label_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_name"
+        android:background="@android:color/white"
+        android:layout_alignRight="@id/label_name"
+        android:layout_alignLeft="@id/label_name"
+        android:layout_alignParentBottom="true"
+        android:text="@string/serjao_desc"
+        android:padding="8dp"/>
+
+
+
+
+</RelativeLayout>

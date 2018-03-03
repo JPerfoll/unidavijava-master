@@ -1,0 +1,4 @@
+<resources>
+    <string name="default_text">Hello World</string>
+    <string name="msg_default">Hello, folks!</string>
+</resources>
